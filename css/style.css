@@ -1,0 +1,280 @@
+
+/**
+* Nome do Projeto: Desenvolvimento para Internet - AV1 | Atividade 3
+* Cliente: Faculdade Uninove
+* Programador Responsavel: João Mario Cardoso
+* e-mail: joao.desenvolvimentoweb@gmail.com
+*/
+
+/*******************************************************************************
+* CSS RESET
+********************************************************************************/
+*{
+  font-family: helvetica, arial, verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*******************************************************************************
+* Definição de Blocos 
+********************************************************************************/
+.inner-titles{
+    float: left;
+    background: #f6f6f6;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 40px 0;
+    width: 100%;
+}
+
+    .inner-titles h1{
+        float: left;
+        text-transform: uppercase;
+        font-size: 22px;
+        font-weight: bold;
+        width: 100%;
+    }
+
+    .inner-titles h2{
+        float: left;
+        text-transform: uppercase;
+        font-size: 18px;
+        margin-top: 10px;
+        font-weight: normal;
+        width: 100%;
+    }
+
+/*******************************************************************************
+* Formularios - Abaixo o coloque as alteracoes das definicoes "default"
+********************************************************************************/
+.contact-form{
+    float: left;
+    width: 100%;
+}
+    
+    .contact-form fieldset{
+        float: left;
+        padding: 0 20px 0 0 ;
+        border: none;
+        width: 50%;
+    }
+
+        .contact-form fieldset label{
+            float: left;
+            font-size: 14px;
+            margin-bottom: 5px;
+            width: 100%;
+        }
+
+        .contact-form fieldset legend{
+            float: left;
+            font-size: 25px;
+            color: #333333;
+            margin-bottom: 18px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .contact-form fieldset input, select, textarea{
+            float: left;
+            margin-bottom: 15px;
+            border: solid 1px #DDDDDD;
+            border-radius: 5px;
+            padding: 10px;
+            width: 100%;
+        }
+
+        .contact-form fieldset select{
+            height: 35px;
+        } 
+
+        .contact-form fieldset textarea{
+            height: 106px;
+            resize: vertical;
+        }
+
+/*******************************************************************************
+* Botoes - Abaixo o coloque as alteracoes das definic0es "default"
+********************************************************************************/
+.btn-send{
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+    
+    .btn-send button{
+        background: #eeeeee;
+        padding: 15px 15px;
+        color: #333333;
+        border-radius: 5px;
+        font-size: 14px;
+        border: solid 1px #DDDDDD;
+        text-align: center;
+        width: auto;
+    }
+
+/*******************************************************************************
+* Estilizacao Elementos Base
+********************************************************************************/
+
+body
+{margin: 0; padding: 0;}
+
+	.container
+	{width: 960px; margin: 0 auto;}
+        
+        /* TOPO DO SITE */
+        header{
+          background: #eeeeee;
+          float: left;
+          width: 100%;
+        }
+
+            /* LOGO */
+            .logo{
+                float: left;
+                background: red;
+                height: 80px;
+                width: 250px;
+            }
+            
+            /* MENU PRINCIPAL */
+            nav{
+                float: right;
+                margin-top: 30px;
+            }
+
+                nav ul{
+                    float: left;
+                }
+
+                    nav ul li{
+                        display: inline;
+                        margin: 0 2px;
+                    }
+
+                        nav ul li a{
+                            color: #333333;
+                            display: inline;
+                            font-size: 15px;
+                            text-decoration: none;
+                            padding: 0 20px;
+                        }
+
+                            nav ul li a:hover{
+                                color: #555555;
+                                text-decoration: underline;
+                            }
+
+        footer{
+            float: left;
+            background: #eeeeee;
+            margin-top: 40px;
+            padding: 20px;
+            width: 100%;
+        }   
+
+            footer p{
+                float: left;
+                text-align: center;
+                font-size: 13px;
+                font-weight: normal;
+                width: 100%;
+            }
+/*******************************************************************************
+* Estilos Projeto
+********************************************************************************/
+
+/***********************************
+* HOME
+************************************/
+    /* CHAMADA PRINCIPAL */
+    .main-headline{
+        float: left;
+        background: url(../img/1920x620.jpg) no-repeat top center;
+        height: 620px;
+        width: 100%;
+    }
+
+        .main-headline hgroup{
+            float: left;
+            color: #333333;
+            margin-top: 150px;
+            text-align: center;
+            width: 100%;
+        }
+
+            .main-headline hgroup h1{
+                float: left;
+                text-transform: uppercase;
+                font-size: 40px;
+                font-weight: bold;
+                width: 100%;
+            }
+
+            .main-headline hgroup h2{
+                float: left;
+                text-transform: uppercase;
+                font-size: 18px;
+                margin-top: 40px;
+                font-weight: normal;
+                width: 100%;
+            }
+    
+    .content{
+        float: left;
+        width: 100%;
+    }   
+
+        .content p{
+            color: #444444;
+            float: left;
+            font-size: 14px;
+            line-height: 165%;
+            font-weight: normal;
+            margin-bottom: 20px; 
+            width: 100%;
+        }
+
+        .content ul{
+            float: left;
+            margin-top: 10px;
+        }
+
+        .content ul li{
+            float: left;
+            width: 320px;
+            padding: 10px;
+        }
+
+            .content ul li a{
+                float: left;
+                text-decoration: none;
+                width: 100%;
+            }
+
+                .content ul li a h2{
+                    color: #444444;
+                    float: left;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    text-align: center;
+                    font-weight: normal;
+                    margin: 20px 0;
+                    width: 100%;
+                }
+
+                .content ul li a p{
+                    text-align: center;
+                    padding: 0 10px;
+                }
+
+                .content ul li a img{
+                    float: left;
+                    width: 100%;
+                }
